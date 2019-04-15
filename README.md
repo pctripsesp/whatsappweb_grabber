@@ -10,6 +10,15 @@ sudo apt-get install default-jdk
 sudo apt-get install chromium-chromedriver
 sudo apt-get install python3-pip
 sudo pip3 install selenium
+
+METHOD 2
+wget -N http://chromedriver.storage.googleapis.com/2.26/chromedriver_linux64.zip
+unzip chromedriver_linux64.zip
+chmod +x chromedriver
+
+sudo mv -f chromedriver /usr/local/share/chromedriver
+sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
+sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
 ```
 Starting
 ```
