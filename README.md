@@ -5,6 +5,8 @@ This is a simple script to grab all the information from a new web whatsapp sess
 ## Getting Started
 Dependencies
 ```
+sudo apt-get install -y unzip xvfb libxi6 libgconf-2-4
+sudo apt-get install default-jdk 
 sudo apt-get install chromium-chromedriver
 sudo apt-get install python3-pip
 sudo pip3 install selenium
